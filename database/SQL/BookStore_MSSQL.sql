@@ -1,4 +1,4 @@
-﻿-- Copyright (C) 2001 YesSoftware. All rights reserved.
+﻿-- Copyright (C) 2001 YesSoftware. All rights reserved..
 -- BugTrack_MSSQL.sql
 
 if exists (select * from sysobjects where id = object_id(N'card_types') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table card_types
