@@ -5,7 +5,7 @@
  *          PHP build 02/26/2001
  *********************************************************************************/
 
-include ("./common.php");
+include ("./common.php");;
 include ("./Header.php");
 include ("./Footer.php");
 
