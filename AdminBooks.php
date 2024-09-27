@@ -313,7 +313,7 @@ function Items_Show()
       $scroller_next = "<a href=\"".$sFileName."?".$transit_params.$sSortParams."FormItems_Page=".$next_page."#Items\">";
     }
     echo $scroller_next."<font "."style=\"font-size: 10pt; color: #CE7E00; font-weight: bold\"".">Next</font>";
-    if ($scroller_next) echo "</a>";
+    if ($scroller_next) echo "</a>";;
   }
 
   //-- the end of the last row and the end of the table
